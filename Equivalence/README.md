@@ -11,4 +11,8 @@ Logical operator:\
 ">" = inplicates.\
 \
 Variable names:\
- -Any digit that can be represented on Unicode and isn't assigned to the logical operators is a valid variable.
+ -Any digit that can be represented on Unicode and isn't "V", "^", ">", "¬", "(" and ")" is a valid variable. 
+ -The variable names are case sensitive, so "X" isn't the same as "x"
+
+Brackets:
+ -Propositions between "(" and ")" are calculate first.
